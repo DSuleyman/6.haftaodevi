@@ -1,0 +1,13 @@
+int toplamListe(List<int> liste) {
+  int toplam = 0;
+  for (int sayi=0;sayi<liste.length;sayi++) {
+    toplam += liste[sayi];
+  }
+  return toplam;
+}
+
+
+void main() {
+  List<int> sayilar = [1, 2, 3, 4, 5];
+  print(toplamListe(sayilar));
+}
